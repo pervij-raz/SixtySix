@@ -9,11 +9,10 @@ import SwiftUI
 
 struct SplashScreen: View {
     var body: some View {
-        VStack {
-            Text("Hello, dear!").fontDesign(.rounded).font(.largeTitle).foregroundColor(.brand)
-            LottieView(fileName: "LoadingAnimation").scaledToFit()
-        }
-        .background(.white)
+        Spacer()
+        Text("Hello, dear!").fontDesign(.rounded).font(.largeTitle).foregroundColor(.brand)
+        LottieView(fileName: Constants.Animation.launchFileName).scaledToFit()
+            .background(.white)
     }
 }
 
