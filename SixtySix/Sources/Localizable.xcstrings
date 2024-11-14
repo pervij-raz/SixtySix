@@ -5,10 +5,19 @@
       "comment" : "\"Hello, dear!\"",
       "extractionState" : "manual"
     },
+    "Activities" : {
+
+    },
     "Hello, dear!" : {
 
     },
     "Hello, World!" : {
+
+    },
+    "Progress" : {
+
+    },
+    "Today" : {
 
     }
   },

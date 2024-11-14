@@ -10,17 +10,19 @@ import SwiftUI
 struct MainView: View {
     var body: some View {
         TabView {
-            TodayView()
-                .tabItem {
-                    Label("Today", systemImage: "list.bullet.rectangle.portrait")
-                        .foregroundStyle(.brand)
-                }
-            
-            StatisticsView()
-                .tabItem {
-                    Label("Progress", systemImage: "chart.bar.horizontal.page")
-                        .foregroundStyle(.brand)
-                }
+            NavigationStack{
+                TodayView()
+            }
+                    .tabItem {
+                        Label("Today", systemImage: "list.bullet.rectangle.portrait")
+                            .foregroundStyle(.brand)
+                    }
+
+                StatisticsView()
+                    .tabItem {
+                        Label("Progress", systemImage: "chart.bar.horizontal.page")
+                            .foregroundStyle(.brand)
+                    }
         }
     }
 }
