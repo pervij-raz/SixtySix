@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AD95BAF62CE26A2A00C2C5E7 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = AD95BAF52CE26A2A00C2C5E7 /* Lottie */; };
+		ADBF755E2CE629850069D214 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = ADBF755D2CE629850069D214 /* swiftgen.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		AD95BAC42CE2691D00C2C5E7 /* SixtySix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SixtySix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD95BAD62CE2691F00C2C5E7 /* SixtySixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SixtySixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD95BAE02CE2691F00C2C5E7 /* SixtySixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SixtySixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBF755D2CE629850069D214 /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -80,6 +82,7 @@
 		AD95BABB2CE2691D00C2C5E7 = {
 			isa = PBXGroup;
 			children = (
+				ADBF755D2CE629850069D214 /* swiftgen.yml */,
 				AD95BAC62CE2691D00C2C5E7 /* SixtySix */,
 				AD95BAD92CE2691F00C2C5E7 /* SixtySixTests */,
 				AD95BAE32CE2691F00C2C5E7 /* SixtySixUITests */,
@@ -211,7 +214,6 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				AD95BAF32CE26A1E00C2C5E7 /* XCRemoteSwiftPackageReference "lottie-ios" */,
-				AD9C620C2CE3897B0055E354 /* XCRemoteSwiftPackageReference "SwiftGenPlugin" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AD95BAC52CE2691D00C2C5E7 /* Products */;
@@ -230,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADBF755E2CE629850069D214 /* swiftgen.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,14 +605,6 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 4.5.0;
-			};
-		};
-		AD9C620C2CE3897B0055E354 /* XCRemoteSwiftPackageReference "SwiftGenPlugin" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SwiftGen/SwiftGenPlugin";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.6.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

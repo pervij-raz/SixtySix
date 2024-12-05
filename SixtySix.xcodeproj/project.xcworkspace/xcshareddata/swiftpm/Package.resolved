@@ -1,5 +1,5 @@
 {
-  "originHash" : "7cc834097573085f2398abd39013896fef197cdedb46f24899c60e1c28eddf7b",
+  "originHash" : "0271592b24e5dc1185a09e3f2d980d55521827815d397c9bce8e63d502a51e84",
   "pins" : [
     {
       "identity" : "lottie-ios",
@@ -8,15 +8,6 @@
       "state" : {
         "revision" : "fe4c6fe3a0aa66cdeb51d549623c82ca9704b9a5",
         "version" : "4.5.0"
-      }
-    },
-    {
-      "identity" : "swiftgenplugin",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/SwiftGen/SwiftGenPlugin",
-      "state" : {
-        "revision" : "879b85a470cacd70c19e22eb7e11a3aed66f4068",
-        "version" : "6.6.2"
       }
     }
   ],

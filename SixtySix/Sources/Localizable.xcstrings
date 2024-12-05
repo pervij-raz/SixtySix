@@ -5,7 +5,124 @@
       "comment" : "\"Hello, dear!\"",
       "extractionState" : "manual"
     },
+    "1" : {
+
+    },
+    "2" : {
+
+    },
+    "3" : {
+
+    },
+    "4" : {
+
+    },
+    "5" : {
+
+    },
+    "6" : {
+
+    },
+    "7" : {
+
+    },
+    "8" : {
+
+    },
+    "9" : {
+
+    },
+    "10" : {
+
+    },
+    "11" : {
+
+    },
+    "12" : {
+
+    },
+    "13" : {
+
+    },
+    "14" : {
+
+    },
+    "15" : {
+
+    },
+    "16" : {
+
+    },
+    "17" : {
+
+    },
+    "18" : {
+
+    },
+    "19" : {
+
+    },
+    "20" : {
+
+    },
+    "21" : {
+
+    },
+    "22" : {
+
+    },
+    "23" : {
+
+    },
+    "24" : {
+
+    },
+    "25" : {
+
+    },
+    "26" : {
+
+    },
+    "27" : {
+
+    },
+    "28" : {
+
+    },
+    "29" : {
+
+    },
+    "30" : {
+
+    },
+    "31" : {
+
+    },
     "Activities" : {
+
+    },
+    "activity name" : {
+
+    },
+    "Choose a date for activity end" : {
+
+    },
+    "Choose a date for activity start" : {
+
+    },
+    "Choose a day or some of them" : {
+
+    },
+    "Choose an image for your activity" : {
+
+    },
+    "Create a new activity" : {
+
+    },
+    "Create activity" : {
+
+    },
+    "daily" : {
 
     },
     "Hello, dear!" : {
@@ -14,10 +131,28 @@
     "Hello, World!" : {
 
     },
+    "How often are you going to do this activity?" : {
+
+    },
+    "monthly" : {
+
+    },
+    "Name of activity" : {
+
+    },
+    "NEXT" : {
+
+    },
     "Progress" : {
 
     },
     "Today" : {
+
+    },
+    "weekly" : {
+
+    },
+    "Write a name for your activity" : {
 
     }
   },

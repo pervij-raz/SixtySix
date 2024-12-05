@@ -3,8 +3,8 @@
 ## In case your config entries all use a common input/output parent directory, you can specify those here.
 ##   Every input/output paths in the rest of the config will then be expressed relative to these.
 ##   Those two top-level keys are optional and default to "." (the directory of the config file).
- input_dir: ${DERIVED_SOURCES_DIR}/Sources/
- output_dir: ${DERIVED_SOURCES_DIR}/Generated/
+ input_dir: SixtySix
+ output_dir: SixtySix/Generated/
 
 
 ## Generate constants for your localized strings.
@@ -12,7 +12,7 @@
 ##   SwiftGen will parse all `.strings` files found in that folder.
  strings:
    inputs:
-     - Resources/Base.lproj
+     - Sources/Localizable.xcstrings
    outputs:
      - templateName: structured-swift5
        output: Strings+Generated.swift
@@ -24,20 +24,19 @@
 ##   - To know which params are supported for a template, use `swiftgen template doc xcassets swift5` to open the template documentation on GitHub.
  xcassets:
    inputs:
-     - Main.xcassets
-     - ProFeatures.xcassets
+     - Sources/Assets.xcassets
    outputs:
      - templateName: swift5
        params:
          forceProvidesNamespaces: true
        output: XCAssets+Generated.swift
-
-files:
-  inputs:
-    - Files
-  outputs:
-    templateName: structured-swift5
-    output: Files.swift
+#
+#files:
+#  inputs:
+#    - Sources
+#  outputs:
+#    templateName: structured-swift5
+#    output: Files.swift
 
 ## There are other parsers available for you to use depending on your needs, for example:
 ##  - `fonts` (if you have custom ttf/ttc font files)
